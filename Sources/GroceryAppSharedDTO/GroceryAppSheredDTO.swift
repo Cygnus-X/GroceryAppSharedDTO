@@ -5,4 +5,10 @@
 //  Created by Viktor Kaderabek on 20.04.2026.
 //
 
-import Foundation
+public struct GroceryAppSharedDTO {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
+
