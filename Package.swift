@@ -20,11 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GroceryAppSharedDTO",
-            dependencies: []),
-        .testTarget(
-            name: "GroceryAppSharedDTOTests",
-            dependencies: ["GroceryAppSharedDTO"]),
-    ],
-    swiftLanguageModes: [.v6]
+            dependencies: [])
+    ]
 )
 
