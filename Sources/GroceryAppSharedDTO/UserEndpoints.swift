@@ -10,6 +10,6 @@ import Foundation
 
 public struct UserEndpoints: Codable {
     
-    static let register = "register"
-    static let logIn = "login"
+    public static let register = "register"
+    public static let logIn = "login"
 }
