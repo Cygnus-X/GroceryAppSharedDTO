@@ -13,7 +13,7 @@ public struct GroceryCategoryResponseDTO: Codable {
     public let title: String
     public let colorCode: String
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         
         case id
         case title

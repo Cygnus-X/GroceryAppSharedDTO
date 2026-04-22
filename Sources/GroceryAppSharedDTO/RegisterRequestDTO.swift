@@ -12,7 +12,7 @@ public struct RegisterRequestDTO: Codable {
     public let username: String
     public var password: String
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         
         case username
         case password

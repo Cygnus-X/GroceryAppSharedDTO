@@ -12,7 +12,7 @@ public struct RegisterResponseDTO: Codable {
     public let error: Bool
     public var reason: String? = nil
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         
         case error
         case reason

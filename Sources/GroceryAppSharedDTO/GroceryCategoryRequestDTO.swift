@@ -12,7 +12,7 @@ public struct GroceryCategoryRequestDTO: Codable {
     public let title: String
     public let colorCode: String
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         
         case title
         case colorCode = "color_code"
