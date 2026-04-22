@@ -14,6 +14,7 @@ public struct GroceryCategoryResponseDTO: Codable {
     public let colorCode: String
 
     enum CodingKeys: String, CodingKey {
+        
         case id
         case title
         case colorCode = "color_code"

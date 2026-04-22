@@ -13,6 +13,7 @@ public struct RegisterResponseDTO: Codable {
     public var reason: String? = nil
 
     enum CodingKeys: String, CodingKey {
+        
         case error
         case reason
     }

@@ -15,6 +15,7 @@ public struct LoginResponseDTO: Codable {
     public var userId: UUID? = nil
 
     enum CodingKeys: String, CodingKey {
+        
         case error
         case reason
         case token
