@@ -13,8 +13,14 @@ public struct GroceryCategoryResponseDTO: Codable {
     public let title: String
     public let colorCode: String
 
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case colorCode = "color_code"
+    }
+
     public init(id: UUID, title: String, colorCode: String) {
-        
+
         self.id = id
         self.title = title
         self.colorCode = colorCode
