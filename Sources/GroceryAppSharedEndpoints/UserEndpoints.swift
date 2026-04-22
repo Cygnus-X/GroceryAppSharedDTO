@@ -1,5 +1,5 @@
 //
-//  RegisterResponseDTO 2.swift
+//  UserEndpoints.swift
 //  GroceryAppSharedDTO
 //
 //  Created by Viktor Kaderabek on 22.04.2026.
@@ -8,14 +8,8 @@
 
 import Foundation
 
-public struct RegisterResponseDTO: Codable {
+public struct UserEndpoints: Codable {
     
-    public let error: Bool
-    public var reason: String? = nil
-    
-    public init(error: Bool, reason: String? = nil) {
-        
-        self.error = error
-        self.reason = reason
-    }
+    static let register = "register"
+    static let logIn = "login"
 }
