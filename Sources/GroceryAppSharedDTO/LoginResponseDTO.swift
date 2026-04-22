@@ -14,7 +14,7 @@ public struct LoginResponseDTO: Codable {
     public var token: String? = nil
     public var userId: UUID? = nil
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         
         case error
         case reason
