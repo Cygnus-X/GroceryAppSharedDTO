@@ -10,7 +10,7 @@ import Foundation
 
 public enum GroceryCategoryEPs {
 
-    static func newGroceryCategory(userId: String) -> String {
+    public static func newGroceryCategory(userId: String) -> String {
 
         return "\(GroceryAppEPsConstants.apiDomain)/users/\(userId)/grocery-categories"
     }
