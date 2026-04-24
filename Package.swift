@@ -12,8 +12,8 @@ let package = Package(
             targets: ["GroceryAppSharedDTO"]
         ),
         .library(
-            name: "GroceryAppSharedEndpoints",
-            targets: ["GroceryAppSharedEndpoints"]
+            name: "GroceryAppSharedEPs",
+            targets: ["GroceryAppSharedEPs"]
         )
     ],
     dependencies: [
@@ -28,9 +28,8 @@ let package = Package(
             dependencies: []
         ),
         .target(
-            name: "GroceryAppSharedEndpoints",
+            name: "GroceryAppSharedEPs",
             dependencies: []
         )
     ]
 )
-
